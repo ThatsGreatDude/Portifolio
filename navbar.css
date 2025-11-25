@@ -1,0 +1,38 @@
+/* Navigation Bar */
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(209, 147, 196);
+}
+
+.navbar {
+    font-family: "Science Gothic", sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    color: rgb(78, 51, 69);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: rgb(78, 51, 69);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}

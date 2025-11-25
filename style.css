@@ -1,0 +1,43 @@
+
+.blob-outer-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    inset: 0;
+    margin: auto;
+    filter: blur(100px);
+}
+
+.blob-inner-container {
+    border-radius: 50%;
+
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    min-width: 1000px;
+    overflow: hidden;
+    background-color: #fff;
+    transform: scale(0.8);
+}
+
+.blob {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    margin: auto;
+    background: conic-gradient(from 0deg, #ac59a5, #e49bc5, #fdaaef, #c963bb, #FFD5D5), #cd2ca5;
+    animation: orbitBlob 15s linear infinite;
+}
+
+@keyframes orbitBlob {
+    0% {
+        transform: rotate(0deg) translateX(200px) rotate(0deg) scale(2);
+    }
+    100% {
+        transform: rotate(360deg) translateX(200px) rotate(-360deg) scale(2);
+    }
+}
