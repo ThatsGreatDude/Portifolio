@@ -1,0 +1,8 @@
+.headline {
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgba(78, 51, 69, 0.95);
+    margin-bottom: 40px;
+}
