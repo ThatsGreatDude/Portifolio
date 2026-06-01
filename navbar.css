@@ -7,6 +7,26 @@ body {
     background-color: rgb(209, 147, 196);
 }
 
+.navbar a {
+    color: rgb(141, 234, 132);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #74e27d;
+    text-shadow:
+        0 0 5px #95da75,
+        0 0 10px #60c286,
+        0 0 20px #a4eb85;
+}
+
+.navbar a.active {
+    color: #87e797;
+    text-shadow:
+        0 0 4px rgba(75, 154, 74, 0.5),
+        0 0 8px rgba(143, 211, 255, 0.3);
+}
 .navbar {
     font-family: "Science Gothic", sans-serif;
     padding-right: 15px;
